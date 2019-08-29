@@ -11,7 +11,7 @@
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "@mobsya/thymio-api": "^0.9.11",
+    "@mobsya/thymio-api": "^0.10.2",
     "babel-loader": "^8.0.6",
     "babel-polyfill": "^6.26.0",
     "eslint": "^5.16.0",

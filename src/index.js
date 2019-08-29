@@ -9,6 +9,9 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+client.onClose = async (event) => {
+    console.log(event)
+}
 
 // Start monitotring for node event
 // A node will have the state
