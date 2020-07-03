@@ -34,8 +34,8 @@ Run `npm start`
 
 ## How does it work?
 
-The thymio API is distributed as a [npm package](https://www.npmjs.com/package/@mobsya/thymio-api).
-It can be installed with `npi -i @mobsya/thymio-API`.
+The thymio API is distributed as a [npm package](https://www.npmjs.com/package/@mobsya-association/thymio-api).
+It can be installed with `npm -i @mobsya-association/thymio-api`.
 
 This demo project also depends on:
 * Webpack to orchestrate the bundling of the application for both node and browser

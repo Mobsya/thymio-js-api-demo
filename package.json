@@ -1,26 +1,26 @@
 {
-  "name": "@mobsya/thymio-js-api-demo",
-  "version": "0.1.0",
+  "name": "@mobsya-association/thymio-js-api-demo",
+  "version": "0.1.1",
   "description": "Thymio JS API demo for Node & Browsers",
   "main": "webpack.config.js",
   "dependencies": {
-    "@babel/polyfill": "^7.4.4",
-    "webpack": "^4.33.0"
+    "@babel/polyfill": "^7.10.4",
+    "webpack": "^4.43.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "@mobsya/thymio-api": "^0.10.2",
-    "babel-loader": "^8.0.6",
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@mobsya-association/thymio-api": "^0.10.3",
+    "babel-loader": "^8.1.0",
     "babel-polyfill": "^6.26.0",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
-    "webpack-cli": "^3.3.2"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "browser": "npm run build && echo \"Open dist/index.html with a web browser.\"",
